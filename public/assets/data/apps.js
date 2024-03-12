@@ -118,7 +118,7 @@ var apps = [
       "description": "Roblox test now gg might not work"
     }
   ]
-   },
+    },
     {
       'id': 'Roblox Now.Gg',
       'title': 'Now,gg Roblox',
