@@ -114,11 +114,19 @@ var apps = [
       'id': 'gbaemulator',
       'title': 'GBA Emulator',
       'url': 'https://cattn.github.io/gba',
+      "image": "https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht",
+      "description": "Roblox test now gg might not work"
+    }
+  ]
+   },
+    {
+      'id': 'Roblox Now.Gg',
+      'title': 'Now,gg Roblox',
+      'url': 'https://websitesball.com/',
       "image": "https://cattn.github.io/gba/pwa/apple-icon-180.png",
       "description": "A Game Boy Advance retro emulator with over 3000 games, and other consoles as well"
     }
   ]
-  
   var customapps = JSON.parse(localStorage.getItem("customapps"))
   if (customapps) customapps.forEach(app => {
     apps.push(app)
